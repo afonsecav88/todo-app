@@ -1,0 +1,20 @@
+<div class="header-text">#todo</div>
+
+<div class="flex justify-around justify-items-center flex-wrap">
+  <div *ngFor="let item of linkItems">
+    <a
+      class="link-text"
+      [routerLink]="item.path"
+      routerLinkActive
+      #act="routerLinkActive"
+      [ngClass]="{ linkActive: act.isActive }"
+    >
+      {{ item.title }}
+    </a>
+  </div>
+  <hr class="line-divider" />
+</div>
+
+<router-outlet></router-outlet>
+
+<div class="developer-name">Adrián Fonseca Vega</div>

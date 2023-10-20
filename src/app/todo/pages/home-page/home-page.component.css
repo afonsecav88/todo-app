@@ -1,0 +1,42 @@
+.header-text {
+  color: #333;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.62px;
+  margin-top: 40px;
+  margin-bottom: 68px;
+}
+
+.link-text {
+  color: #333;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.linkActive {
+  padding-bottom: 20px;
+  border-bottom: solid 5px #2F80ED;
+  border-radius: 4px 4px 0px 0px;
+  position: relative;
+}
+
+.line-divider {
+  background: #BDBDBD;
+  width: 100%;
+  height: 1px;
+  border: 1px;
+  margin-bottom: 18px;
+  margin-top: 20px;
+}
+
+.developer-name {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}

@@ -1,0 +1,36 @@
+.text-task {
+  color: var(--Gray-1, #333);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 10px;
+  text-decoration-line: line-through;
+}
+
+.input-task {
+  width: 20px;
+  height: 20px;
+  margin-right: 9px;
+}
+
+.button-delete {
+  width: 124px;
+  height: 40px;
+  border-radius: 4px;
+  background: #EB5757;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.button-delete:hover {
+  background-color: #d31d1d;
+}
+

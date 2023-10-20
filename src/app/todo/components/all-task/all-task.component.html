@@ -1,0 +1,12 @@
+<app-add-task />
+<div class="flex" *ngFor="let item of tasks; let i = index">
+  <span
+    class="text_task"
+    [ngStyle]="{
+      'text-decoration': item.checked == true ? 'line-through' : 'none'
+    }"
+  >
+    <input class="input_task" type="checkbox" [checked]="item.checked" />
+    {{ item.task | titlecase }}
+  </span>
+</div>

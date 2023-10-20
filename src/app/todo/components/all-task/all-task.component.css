@@ -1,0 +1,17 @@
+.text_task {
+  color: var(--Gray-1, #333);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.input_task {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  margin-right: 9px;
+  border: 1px solid var(--Gray-3, #828282);
+}

@@ -1,0 +1,12 @@
+<app-add-task />
+<div class="flex" *ngFor="let item of tasks; let i = index">
+  <span class="text-task" *ngIf="item.checked == false">
+    <input
+      class="input-task"
+      type="checkbox"
+      (change)="taskDo($event, i)"
+      [checked]="item.checked"
+    />
+    {{ item.task | titlecase }}
+  </span>
+</div>
