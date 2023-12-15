@@ -3,6 +3,7 @@
 ## Aplicación para gestionar lista de tareas .
 - Uso de Angular.
 - Uso de Flexbox y Tailwind CSS.
+- Almacenamiento en LocalStorage.
 
 ### Módulo de tareas
 - Añadir una tarea.
