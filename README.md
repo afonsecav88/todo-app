@@ -16,4 +16,4 @@
 2. Para levantar el server de desarrollo ```ng serve -o```
 3. Para hacer el build de la app ```ng build```
 
-> NOTA: La app esta desplegada en este URL https://todo-app-af.netlify.app/
+
